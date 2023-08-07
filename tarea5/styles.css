@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .background__container {
+        width: 450px;
+        height: 900px;
+        background-image: url("imagenes/mobile.png");
+    }
+
+    header {
+        width: 450px;
+        height: 100px;
+
+    }
+
+    .logo__container {
+        height: 30px;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+
+    .disenio__container {
+        width: 450px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .imagen-disenio__container {
+        width: 350px;
+        height: 250px;
+    }
+
+    .first-text__container, .second-text__container {
+        margin-bottom: 30px;
+        width: 450px;
+    }
+
+    .first-block__container{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0 35px 0 35px;
+    }
+
+    .second-block__container {
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0 35px 0 35px;
+    }
+
+.mobile-button__container {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile__button {
+    color: rgb(219, 47, 219);
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.mobile__button:hover {
+    cursor: pointer;
+}
+
+.mobile__button:active {
+    background-color: purple;
+
+}
+
+
+
+}
+
+@media only screen and (min-width: 450px) {
+    .background__container {
+        width: 1100px;
+        height: 600px;
+        background-image: url("imagenes/desktop.png");
+    }
+
+    header {
+        width: 1100px;
+        height: 300px;
+        margin-bottom: 30px;
+   }
+
+   .logo__container {
+        height: 30px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+    .disenio__container {
+        width: 550px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .imagen-disenio__container {
+        width: 450px;
+        height: 400px;
+    }
+
+   /* Este es otro comentario */
+
+   .first-text__container, .second-text__container {
+    margin-bottom: 30px;
+    width: 600px;
+    }
+
+    .first-block__container{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        padding: 0 35px 0 35px;
+    }
+
+    .second-block__container {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        padding: 0 35px 0 35px;
+    }
+
+    .mobile-button__container {
+        width: 450px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    .mobile__button {
+        color: rgb(219, 47, 219);
+        width: 100px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+}
+
+    .mobile__button:hover {
+        cursor: pointer;
+}
+
+    .mobile__button:active {
+        background-color: purple;
+
+}
+
+    .suscripcion__container{
+        position: absolute;
+        top: 150px;
+        left: 550px;
+    }
+
+}
+

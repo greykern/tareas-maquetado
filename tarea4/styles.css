@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(40, 36, 36);
+}
+
+.first-card__container {
+    background: linear-gradient(to right, rgb(120, 110, 225), rgb(122, 203, 241));
+    color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 5%;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.second-card__container {
+    background: linear-gradient(to right, rgb(255, 60, 60), rgb(252, 100, 100));
+    color: white;
+    width: 380px;
+    height: 480px;
+    border-radius: 5%;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.third-card__container {
+    background: linear-gradient(to right, rgb(0, 243, 121), rgb(122, 203, 241));
+    color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 5%;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+
+.first-header__container, .second-header__container, .third-header__container {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 120px;
+}
+
+.span__container {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign__container {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+}
+
+.money__container {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.first-plan__container, .second-plan__container {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.first-plan__container > p {
+    display: flex;
+    justify-content: center;
+}
+
+.second-plan__container > p {
+    display: flex;
+    justify-content: center;
+}
+
+.lines__container {
+    display: flex;
+    justify-content: center;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.word__container {
+    margin: 0 10px 0 10px;
+}
+
+.first-button__container, .third-button__container{
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 5%;
+    margin-top: auto;
+}
+
+.second-button__container {
+    height: 102px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 5%;
+}
+
+button {
+    height: 60px;
+    width: 160px;
+    border-radius: 5%;
+    border: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.first-card__container:hover, .second-card__container:hover, .third-card__container:hover {
+    transform: scale(1.03);
+    border-radius: 5%;
+}
+
+.first-card__container:hover .first-button__container button {
+    animation-name: button;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.second-card__container:hover .second-button__container button {
+    animation-name: button;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.third-card__container:hover .third-button__container button {
+    animation-name: button;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.first-card__container:hover .word__container {
+    animation-name: lines;
+    animation-duration: 3;
+    animation-fill-mode: forwards;
+}
+
+.second-card__container:hover .word__container {
+    animation-name: lines;
+    animation-duration: 3;
+    animation-fill-mode: forwards;
+}
+
+.third-card__container:hover .word__container {
+    animation-name: lines;
+    animation-duration: 3;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button {
+    10% {
+        width: 240px;
+    }
+
+    20% {
+        width: 330px;
+    }
+    30% {
+        width: 420px;
+    }
+    40% {
+        width: 500px;
+    }
+    100% {
+        width: 500px;
+    }
+    
+}
+
+@keyframes lines {
+    25% {
+        margin: 0 9px 0 9px;
+    }
+    50%{
+        margin: 0 8px 0 8px;
+    }
+    75% {
+        margin: 0 7px 0 7px;
+    }
+    100% {
+        margin: 0 6px 0 6px;
+    }
+}

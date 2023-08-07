@@ -1,0 +1,76 @@
+* {
+    font-size: 22px;
+}
+
+.image1__container {
+    width: 1440px;
+    margin-bottom: 70px;
+    text-align: center;
+
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.text__container-information {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.image2__container, .plan__container  {
+    display: inline-block;
+    text-align: center;
+}
+
+.plan__container {
+    margin: 30px 70px 30px 25px;
+
+}
+
+.button__container {
+    text-align: center;
+}
+
+.click__container {
+    color: blue;
+    background-color: white;
+    position: relative;
+    text-decoration: underline;
+    bottom: 25px;
+    border: none;
+}
+
+.click__container:hover {
+    cursor: pointer;
+    color: rgb(111, 111, 224);
+    text-decoration: none;
+}
+
+
+.click2__container{
+    width: 450px;
+    height: 65px;
+    background-color: blue;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8%;
+}
+
+.click3__container{
+    width: 450px;
+    height: 65px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8%;
+
+}
+
+.click2__container:hover, .click3__container:hover {
+    cursor: pointer;
+}

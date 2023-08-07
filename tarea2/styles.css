@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lime;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+aside {
+    background-color: orange;
+    color: white;
+    height: 100vh;
+    width: 22vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.distance__container {
+    color: white;
+    float: right;
+}
+
+main {
+    background-color: red;
+    color: white;
+    height: 100vh;
+    width: 50vw;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 0 30px;
+}
+
+footer {
+    color: white;
+    background-color: purple;
+    height: 125px;
+    margin-top: 50px;
+}
+
+article {
+    background-color: white;
+    color: black;
+    height: 150px;
+    width: 700px;
+    margin: 80px 30px 80px 30px;
+}
